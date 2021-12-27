@@ -1,0 +1,78 @@
+:root {
+    --green: #00ff00;
+    --white: #fff;
+    --black: #000;
+  }
+  
+  * {
+    color: var(--fontColor);
+    font-family: Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: var(--bg);
+  }
+
+h1{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+ul{
+
+    padding: 15px;
+}
+
+li{
+    font-weight: bolder;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nombre{
+    display: inline-block;
+    padding-bottom: 15px;
+    font-size: 70px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+
+  .foto-nombre-button{
+      display: flex;
+      justify-content: space-between;
+  }
+  .foto-nombre-button img{
+      text-align: left;
+  }
